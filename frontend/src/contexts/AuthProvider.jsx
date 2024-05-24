@@ -32,9 +32,16 @@ const AuthProvider = ({children}) =>{
         toast(data.message);
         setUser(false);
     }
+    
+    const register = async (name, email,phone, password) => {
+        const response = await axios.post('/api/register', { name, email, phone, password });
+        const data = response.data;
+        toast(data.message);
+    }
+
 
     return(
-        <AuthContext.Provider value={{user, setUser,  login ,logout}}>
+        <AuthContext.Provider value={{user, setUser,  login ,logout, register}}>
             {children}
         </AuthContext.Provider>
     )

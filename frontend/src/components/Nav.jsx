@@ -20,6 +20,7 @@ const Nav = () => {
                 <a href='/'><div className='navelement'>Home</div></a>
                 <a href='/cources'><div className='navelement'>cources</div></a>
                 <a href='/workshops'><div className='navelement'>workshops</div></a>
+                <a href='/playground'><div className='navelement'>playground</div></a>
                 <a href='/community'><div className='navelement'>community</div></a>
             </div>
             {
