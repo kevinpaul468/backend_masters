@@ -23,8 +23,6 @@ const PlaygroundNav = () => {
                         <option>Ruby</option>
                         <option>PHP</option>
                         <option>SQL</option>
-                        <option>HTML</option>
-                        <option>CSS</option>
                     </select>
                 </div>
                 <div className="flex space-x-3 mr-2">
